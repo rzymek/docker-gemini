@@ -1,4 +1,4 @@
 #!/bin/bash
-NODE=8
+NODE=10
 JAVA=8
-docker build --build-arg NODE=$NODE --build-arg JAVA=$JAVA -t rzymek/gemini:v$NODE.$JAVA . 
+docker build --build-arg NODE=$NODE --build-arg JAVA=$JAVA -t "rzymek/gemini:$NODE.$JAVA" . 
